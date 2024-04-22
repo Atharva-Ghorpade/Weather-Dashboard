@@ -9,9 +9,9 @@ const icon = document.getElementById("mode-icon");
 
       function updateIcon() {
         if (document.body.classList.contains("dark-mode")) {
-          icon.innerHTML = `<img src="assets/images/svg/moon.svg" alt="Dark Mode" />`;
+          icon.innerHTML = `<img src="assets/images/svg/moon.png" alt="Dark Mode" />`;
         } else {
-          icon.innerHTML = `<img src="assets/images/svg/sun.svg" alt="Light Mode" />`;
+          icon.innerHTML = `<img src="assets/images/svg/sun.png" alt="Light Mode" />`;
         }
       }
 
